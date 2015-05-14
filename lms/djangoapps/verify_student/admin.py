@@ -5,6 +5,7 @@ from verify_student.models import (
     InCourseReverificationConfiguration,
     VerificationStatus,
     SkippedReverification,
+    CreditCourse,
 )
 
 
@@ -58,3 +59,4 @@ admin.site.register(SoftwareSecurePhotoVerification, SoftwareSecurePhotoVerifica
 admin.site.register(InCourseReverificationConfiguration, ConfigurationModelAdmin)
 admin.site.register(SkippedReverification, SkippedReverificationAdmin)
 admin.site.register(VerificationStatus, VerificationStatusAdmin)
+admin.site.register(CreditCourse)
